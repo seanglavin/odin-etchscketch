@@ -1,0 +1,17 @@
+
+
+#canvasContainer {
+    display: grid;  
+    width: 1000px;
+    height: 1000px;
+    border: 10px solid black;
+    grid-template-columns: repeat(var(--gridSize), 1fr);
+    grid-template-rows: repeat(var(--gridSize), 1fr);
+}
+
+.canvasItem {
+    /* border: 1px solid white; */
+    color: blue;
+    background-color: blue;
+
+}
